@@ -1,0 +1,196 @@
+.main {
+  font-family: sans-serif;
+  color: #fff;
+  /* position: absolute; */
+  /* height: 508px; */
+  width: 100%;
+}
+/* #187865 #395b65 */
+@media only screen and (min-width: 960px) {
+  .footer {
+    padding: 43px 208px 32px 208px;
+    background: linear-gradient(#187865, #395b65);
+    color: #fff;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .footer {
+    padding: 23px 14.444vw 23px 14.444vw;
+    background: linear-gradient(#187865, #395b65);
+    color: #fff;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer {
+    padding: 43px 14.444vw 32px 14.444vw;
+    background: linear-gradient(#187865, #395b65);
+    color: #fff;
+  }
+}
+.footer .MuiTypography-root.MuiTypography-h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.footer .MuiTypography-root {
+  color: #fff;
+}
+
+.MuiTypography-root {
+  font-size: 14px;
+}
+.MuiLink-underlineNone:hover {
+  color: #dadfd9;
+}
+.MuiLink-underlineNone {
+  display: flex;
+  cursor: pointer;
+  line-height: 20px;
+}
+@media only screen and (min-width: 600px) {
+  .footer .gridDemo {
+    display: flex;
+  }
+}
+
+.footer .gridDemo > div {
+  margin-right: 32px;
+  max-width: 240px;
+}
+@media only screen and (min-width: 960px) {
+  .footer .gridDemo > div:last-child {
+    margin-left: 34px;
+  }
+}
+.footer .gridDemo > div:last-child {
+  margin-right: 0;
+  flex: auto;
+  max-width: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+h1 {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+li {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.column {
+  padding-top: 45px;
+}
+.column1 ul {
+  padding-left: 20px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.column1 p {
+  line-height: 20px;
+}
+
+.column1 p:last-child {
+  margin-bottom: 5px;
+}
+.column2 {
+  list-style-type: none;
+}
+.column3 {
+  list-style-type: none;
+}
+.column4 .icon .marginRight {
+  margin-right: 10px;
+}
+.column4 .social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.social .icon {
+  display: flex;
+}
+.social .icon > div {
+  margin-right: 17px;
+}
+.column4 .register {
+  position: relative;
+}
+.footer .column4 .register h3 {
+  margin-bottom: 46px;
+}
+.column4 .register i {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+.column4 select:focus-visible {
+  outline: none;
+}
+.column4 select {
+  border: 1px solid #fff;
+  color: #fff;
+  width: 70px;
+  height: 36px;
+  border-radius: 3px;
+  padding: 0 12px;
+  /* border: none; */
+  background-color: transparent;
+  font-family: "San Francisco Text";
+}
+.column4 .register input:focus {
+  outline: none;
+  font-family: "San Francisco Text";
+}
+.column4 .register input {
+  /* border: none; */ /*fix-UI-hiển thị email */
+  border: 1px solid #fff;
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  padding: 0 30px 5px 12px;
+  border-radius: 5px; /*boder khung viền */
+}
+.column4 ::placeholder {
+  color: #fff;
+}
+hr {
+  margin: 3% 10%;
+}
+.aligncenter {
+  text-align: center;
+}
+
+.input-feedback {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  font-family: "San Francisco Text";
+}
+.input-feedback > div {
+  position: absolute;
+  right: 9px;
+  width: 18px;
+  height: 18px;
+  top: 8px;
+}
+.footer .input-feedback img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1920px) {
+  .footer .gridDemo > div {
+    max-width: 400px;
+    margin-right: 40px;
+  }
+}

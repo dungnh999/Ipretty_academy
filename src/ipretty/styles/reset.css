@@ -1,0 +1,148 @@
+
+ol, ul {
+    list-style: none;
+}
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    /*overflow: hidden;*/
+}
+
+details, figcaption, figure, footer, header, hgroup, menu, section {
+    display: block;
+}
+
+
+.clearfix:after, .three:after, .two:after, .four:after, .page--faq .rich-text p:after, .page--faq .rich-text ul:after, .page--faq .rich-text ol:after, .page--faq .rich-text div:after, .sitenav:after, .block:after, .toolbar:after, .breadcrumbs:after, .two--social:after, .section:after, .side:after {
+    display: table;
+    clear: both;
+    content: " ";
+}
+
+img {
+    max-width: 100%;
+}
+
+.detail_h2_title, .u-rate-hv .detail_h2_title, .u-course-teacher .detail_h2_title, .u-list-course .detail_h2_title, .u-des-course .detail_h2_title {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 15px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.u-des-course p {
+    padding: 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.u-des-course p {
+    font-size: 15px;
+}
+
+.u-des-course ul li {
+    list-style: disc;
+    margin: 0 0 10px 40px;
+}
+
+.u-des-course p {
+    padding: 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.u-des-course p {
+    font-size: 15px;
+}
+
+a {
+    color: black;
+}
+
+.rc-collapse , .panel{
+    border: none !important;
+}
+
+
+
+.rc-collapse > .rc-collapse-item > .rc-collapse-header{
+    color: #333333;
+}
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, output, ruby, section, summary, time, mark, audio, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+@media (min-width: 1200px){
+    .pad-sm-new.active {
+        right: 0;
+    }
+
+    .pad-sm-new {
+        position: fixed;
+        right: -25%;
+        padding-right: 0;
+        height: calc(100% - 61px) !important;
+        transition: all .3s ease-in-out;
+    }
+
+    .pad-sm-new {
+        background-color: white;
+    }
+
+    .open-lesson-menu {
+        position: absolute;
+        right: 1%;
+        font-size: 20px;
+        top: 30px;
+        z-index: 9999;
+    }
+
+
+}
+
+.open-lesson-menu {
+    display: none;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    height: 100% !important;
+}
+
+.ant-pagination-item-active{
+    border-color: var(---backgroud-color-primary) !important;
+}
+
+.ant-pagination-item-active a{
+    color: var(---backgroud-color-primary) !important;
+}
+
+.ant-form-item-label{
+    padding: 0 !important;
+}
+
+.ant-segmented-group{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ant-segmented-item-label{
+    border: 1px solid;
+    border-radius: 12px;
+}
+.ant-segmented-item-selected{
+    border-radius: 12px !important;
+}
+
+.ant-segmented-item-selected .ant-segmented-item-label{
+    border: 2px solid var(---backgroud-color-primary) !important;
+    border-radius: 12px !important;
+}

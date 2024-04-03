@@ -1,0 +1,55 @@
+# dependencies
+/node_modules
+
+# vscode
+.vscode-root/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+# idea
+.idea/
+
+# Local History for Visual Studio Code
+.history/
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+
+# package-lock
+package-lock.json
+
+.env
+dist
+.vagrant*
+bin
+docker/docker
+.*.swp
+a.out
+*.orig
+build_src
+.flymake*
+.idea
+.DS_Store
+docs/_build
+docs/_static
+docs/_templates
+.gopath/
+.dotcloud
+*.test
+bundles/
+.hg/
+.git/
+vendor/pkg/
+pyenv
+Vagrantfile
